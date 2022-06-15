@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <filter id="z3oqmr1wwa" width="116.5%" height="121.3%" x="-8.2%" y="-10.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g filter="url(#z3oqmr1wwa)" transform="translate(-534 -390) translate(8 8)">
+                <g>
+                    <g>
+                        <g>
+                            <path d="M0 0H24V24H0z" transform="translate(8 8) translate(454 374) translate(64)"/>
+                            <path fill="#FFF" fill-rule="nonzero" d="M11.21 15.6v-1.26h-2.4c-.113 0-.232.005-.355.015-.123.01-.252.032-.385.065l1.55-1.56c.187-.193.368-.393.545-.6.177-.207.335-.42.475-.64.14-.22.255-.452.345-.695.09-.243.138-.495.145-.755 0-.32-.058-.613-.175-.88-.117-.267-.278-.495-.485-.685-.207-.19-.455-.338-.745-.445-.29-.107-.608-.16-.955-.16-.687 0-1.263.183-1.73.55-.467.367-.757.933-.87 1.7l1.31.22c.007-.1.015-.19.025-.27.01-.08.028-.157.055-.23.08-.22.217-.412.41-.575.193-.163.43-.245.71-.245.327 0 .585.088.775.265.19.177.285.438.285.785 0 .387-.11.743-.33 1.07-.22.327-.52.68-.9 1.06L6 14.8v.8h5.21zm2.423 0l.79-1.64c.094-.193.184-.388.27-.585.087-.197.177-.408.27-.635h.04c.114.227.215.438.305.635s.182.392.275.585l.83 1.64h1.64l-2.08-3.75 1.95-3.65h-1.56l-.7 1.52c-.08.173-.158.353-.235.54l-.255.63h-.05c-.113-.233-.211-.443-.295-.63-.083-.187-.168-.367-.255-.54l-.74-1.52h-1.64l1.95 3.58-2.08 3.82h1.57z" transform="translate(8 8) translate(454 374) translate(64)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

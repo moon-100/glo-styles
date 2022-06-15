@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd" opacity=".7">
+        <g>
+            <path d="M0 0H24V24H0z"/>
+            <g stroke="#FFF" stroke-width="1.5">
+                <path d="M16.25.75v4.5h-12L1.517 3.2 4.254.75H16.25zM22 .75c.621 0 1.184.252 1.591.659.407.407.659.97.659 1.591s-.252 1.184-.659 1.591c-.407.407-.97.659-1.591.659h0-2.25V.75z" transform="rotate(-45 23.18 8.291)"/>
+            </g>
+        </g>
+    </g>
+</svg>

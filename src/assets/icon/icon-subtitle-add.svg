@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <filter id="ptgpt0fo5a" width="121.1%" height="319%" x="-10.6%" y="-109.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" opacity=".7">
+        <g>
+            <g filter="url(#ptgpt0fo5a)" transform="translate(-927 -127) translate(822 118)">
+                <g>
+                    <g>
+                        <path d="M0 0H24V24H0z" transform="translate(65 9) translate(40)"/>
+                        <g stroke="#FFF" stroke-width="1.5" transform="translate(65 9) translate(40) translate(3 3)">
+                            <rect width="16" height="6" rx="2"/>
+                            <path d="M11.993 16H2c-1.105 0-2-.895-2-2v-2c0-1.105.895-2 2-2h12c1.105 0 2 .895 2 2"/>
+                            <g stroke-linecap="round">
+                                <g>
+                                    <path d="M0 2L4 2M2 0L2 4" transform="translate(14 14)"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

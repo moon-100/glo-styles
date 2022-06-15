@@ -1,0 +1,53 @@
+{
+  "user": {
+    "id": 66347,
+    "firstName": "park",
+    "lastName": "risha"
+  },
+  "video": {
+    "url": "https://youtu.be/KL1MIuBfWe0",
+    "runtime": 17184,
+    "duration": null,
+    "fps": 24
+  },
+  "task": {
+    "id": 2377,
+    "type": "TRANSLATION"
+  },
+  "subtask": {
+    "id": 1978,
+    "type": "WORK"
+  },
+  "info": {
+    "projectId": 2299,
+    "projectName": "최신 파이썬 코딩 무료 강의 - 5시간만 투자하면 개발자가 됩니다",
+    "sourceLanguageCode": "ko",
+    "sourceLanguageName": "Korean",
+    "targetLanguageCode": "ja",
+    "targetLanguageName": "Japanese",
+    "genre": "EDUCATION",
+    "dueAt": "2022-06-16T07:46:30.855Z",
+    "isSelf": true
+  },
+  "subtitle": {
+    "source": null,
+    "work": [],
+    "qc": null,
+    "confirm": null,
+    "focusedId": null
+  },
+  "hotkey": [
+    {
+      "id": 11,
+      "name": "art+111"
+    },
+    {
+      "id": 10,
+      "name": "art+10"
+    },
+    {
+      "id": 12,
+      "name": "art+122"
+    }
+  ]
+}
