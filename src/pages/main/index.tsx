@@ -2,10 +2,15 @@ import { useContext, useEffect } from 'react'
 import { useAppDispatch, useAppSelector } from 'src/app/hooks'
 import Button from 'src/common/components/button'
 import DueDate from 'src/common/components/gloz/due-date'
+import Player from 'src/common/components/gloz/player'
 import ProjectName from 'src/common/components/gloz/project-name'
 import RemainingTime from 'src/common/components/gloz/remaining-time'
 import SearchSubtitle from 'src/common/components/gloz/search-subtitle'
+import Soundwave from 'src/common/components/gloz/soundwave'
 import TaskId from 'src/common/components/gloz/task-id'
+import ShortcutTools from 'src/common/components/gloz/tools-shortcut'
+import SubtitleTools from 'src/common/components/gloz/tools-subtitle'
+import VideoTools from 'src/common/components/gloz/tools-video'
 import UserName from 'src/common/components/gloz/user-name'
 import Icon from 'src/common/components/icon'
 import IconButton from 'src/common/components/icon-button'
@@ -64,7 +69,9 @@ export default function Main() {
     <GlozLayout>
       <Body>
         <TopWrapper>
-          <VideoBox></VideoBox>
+          <VideoBox>
+            <Player video={appData.video} />
+          </VideoBox>
           <InfoWrapper>
             <InfoBox>
               <InfoBoxLeft>
@@ -95,21 +102,29 @@ export default function Main() {
               </InfoBoxCenter>
               <InfoBoxRight>
                 <Button
-                  leftIcon={<Icon name="SubmitIcon" size="18" />}
+                  leftIcon={<Icon name="Submit" size="18" />}
                   text="SUBMIT"
                 />
                 <div>
-                  <IconButton icon={<Icon name="LayoutIcon" size="18" />} />
+                  <IconButton icon={<Icon name="Layout" size="18" />} />
                   <SearchSubtitle />
                 </div>
               </InfoBoxRight>
             </InfoBox>
             <ToolWrapper>
-              <VideoToolBox></VideoToolBox>
-              <SubtitleToolBox></SubtitleToolBox>
-              <ShortcutBox></ShortcutBox>
+              <VideoToolBox>
+                <VideoTools />
+              </VideoToolBox>
+              <SubtitleToolBox>
+                <SubtitleTools />
+              </SubtitleToolBox>
+              <ShortcutBox>
+                <ShortcutTools />
+              </ShortcutBox>
             </ToolWrapper>
-            <SoundwaveBox></SoundwaveBox>
+            <SoundwaveBox>
+              <Soundwave />
+            </SoundwaveBox>
           </InfoWrapper>
         </TopWrapper>
         <BotWrapper>

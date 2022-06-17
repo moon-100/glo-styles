@@ -39,6 +39,7 @@ export const InfoBox = styled.div`
   overflow: hidden;
   background-color: #1f2631;
   box-shadow: rgb(0 0 0 / 16%) 0px 8px 16px 0px;
+  user-select: none;
 
   display: inline-flex;
   gap: 8px;
@@ -48,7 +49,7 @@ export const InfoBox = styled.div`
 export const InfoBoxLeft = styled.div`
   flex: 0 0 50%;
 
-  & > div {
+  & > div:first-child {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -123,6 +124,7 @@ export const SoundwaveBox = styled.div`
   overflow: hidden;
   background-color: #1f2631;
   box-shadow: rgb(0 0 0 / 16%) 0px 8px 16px 0px;
+  padding: 8px;
 `
 
 export const BotWrapper = styled.div`

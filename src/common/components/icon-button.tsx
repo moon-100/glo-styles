@@ -3,10 +3,15 @@ import styled from 'styled-components'
 
 interface Props {
   icon?: any
+  disabled: boolean
 }
 
 export default function IconButton(props: Props) {
   return <Container>{props.icon}</Container>
+}
+
+IconButton.defaultProps = {
+  disabled: false,
 }
 
 const Container = styled.div`

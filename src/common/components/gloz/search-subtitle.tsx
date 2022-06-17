@@ -11,7 +11,7 @@ export default function SearchSubtitle(props: Props) {
   return (
     <Container>
       <span>Find the text</span>
-      <Icon name="SearchIcon" />
+      <Icon name="Search" />
     </Container>
   )
 }
